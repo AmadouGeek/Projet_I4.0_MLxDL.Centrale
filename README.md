@@ -95,7 +95,7 @@ print(response.json())
 
    Si vous rencontrez l'erreur `ModuleNotFoundError: No module named 'tensorflow.python'`, essayez ces solutions:
    - Réinstallez TensorFlow avec la commande `pip install tensorflow`
-   - Sauvegardez le modèle au format natif Keras (.h5) plutôt qu'avec joblib
+   - Sauvegardez le modèle au format natif Keras (.h5) plutôt qu'avec joblib(c'est pourquoi nous avons placer ici plusieurs modeles avec des extensions differentes)
 
 2. **Incompatibilité de dimensions**
 
